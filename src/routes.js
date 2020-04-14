@@ -4,6 +4,10 @@ import { createMaterialBottomTabNavigator } from "@react-navigation/material-bot
 import { MaterialCommunityIcons } from 'react-native-vector-icons';
 import Player from './pages/Player';
 import Spell from './pages/Spell';
+import Inventory from './pages/Inventory';
+import Dice from './pages/Dice';
+
+
 
 
 
@@ -15,13 +19,12 @@ export default function Routes() {
         <Tab.Navigator
             initialRouteName="Player"
             activeColor="#FFFFFF"
-            style={{backgroundColor: 'blue'}}
         >
             <Tab.Screen
                 name='Player'
                 component={Player}
                 options={{
-                    tabBarLabel: 'Player',
+                    tabBarLabel: 'Jogador',
                     tabBarIcon: ({ color }) => (
                       <MaterialCommunityIcons name="home" color={color} size={26} />
                     ),
@@ -32,7 +35,7 @@ export default function Routes() {
                     name='Spell'
                     component={Spell}
                     options={{
-                        tabBarLabel: 'Spell',
+                        tabBarLabel: 'Magias',
                         tabBarIcon: ({ color }) => (
                             <MaterialCommunityIcons name="home" color={color} size={26} />
                         ),
@@ -40,7 +43,31 @@ export default function Routes() {
                     style={{ backgroundColor: "#BD1DC3" }}
                 />
 
-        </Tab.Navigator>
+
+                <Tab.Screen
+                    name='Inventory'
+                    component={Inventory}
+                    options={{
+                        tabBarLabel: 'Inventário',
+                        tabBarIcon: ({ color }) => (
+                            <MaterialCommunityIcons name="home" color={color} size={26} />
+                        ),
+                    }}
+                    style={{ backgroundColor: "#BD1DC3" }}
+                />
+                
+                <Tab.Screen
+                    name='Dice'
+                    component={Dice}
+                    options={{
+                        tabBarLabel: 'Dados',
+                        tabBarIcon: ({ color }) => (
+                            <MaterialCommunityIcons name="home" color={color} size={26} />
+                        ),
+                    }}
+                    style={{ backgroundColor: "#BD1DC3" }}
+                />
+            </Tab.Navigator>
         </NavigationContainer>
     );
 }
