@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
-import { MaterialCommunityIcons } from 'react-native-vector-icons';
+import { Feather } from 'react-native-vector-icons';
 import Player from './pages/Player';
 import Spell from './pages/Spell';
 import Inventory from './pages/Inventory';
@@ -26,7 +26,7 @@ export default function Routes() {
                 options={{
                     tabBarLabel: 'Jogador',
                     tabBarIcon: ({ color }) => (
-                      <MaterialCommunityIcons name="home" color={color} size={26} />
+                      <Feather name="user" color={color} size={25} />
                     ),
                   }}
                   />
@@ -37,7 +37,7 @@ export default function Routes() {
                     options={{
                         tabBarLabel: 'Magias',
                         tabBarIcon: ({ color }) => (
-                            <MaterialCommunityIcons name="home" color={color} size={26} />
+                            <Feather name="book-open" color={color} size={25} />
                         ),
                     }}
                     style={{ backgroundColor: "#BD1DC3" }}
@@ -50,7 +50,7 @@ export default function Routes() {
                     options={{
                         tabBarLabel: 'Inventário',
                         tabBarIcon: ({ color }) => (
-                            <MaterialCommunityIcons name="home" color={color} size={26} />
+                            <Feather name="shopping-bag" color={color} size={25} />
                         ),
                     }}
                     style={{ backgroundColor: "#BD1DC3" }}
@@ -62,7 +62,7 @@ export default function Routes() {
                     options={{
                         tabBarLabel: 'Dados',
                         tabBarIcon: ({ color }) => (
-                            <MaterialCommunityIcons name="home" color={color} size={26} />
+                            <Feather name="box" color={color} size={25} />
                         ),
                     }}
                     style={{ backgroundColor: "#BD1DC3" }}
