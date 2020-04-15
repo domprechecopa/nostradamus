@@ -19,15 +19,30 @@ export const PersonImage = styled.Image`
     border-radius: 50px;
 `;
 
-export const PersonNameText = styled.Text`
-    font-size: 16px;
-    margin: 0 10px 0 10px;
-    color: #13131a;
-`;
 
 export const PersonTitleNameText = styled.Text`
     font-size: 16px;
-    margin: 0 0 0 13px;
+    margin: 0 0 0 3px;
     color: #13131a;
     font-weight: bold;
+`;
+
+
+export const PersonNameText = styled.Text`
+    font-size: 16px;
+    margin: 0 10px 0 0;
+    color: #13131a;
+`;
+
+export const PersonClassTitleText = styled.Text`
+    font-size: 16px;
+    margin: 3px 0 0 2px;
+    color: #13131a;
+    font-weight: bold;
+`;
+
+export const PersonClassText = styled.Text`
+    font-size: 16px;
+    margin: 0 10px 0 2px;
+    color: #13131a;
 `;
