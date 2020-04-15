@@ -1,11 +1,15 @@
 import styled from 'styled-components/native';
 
-export const ModificatorContainerView = styled.View`
+
+export const Container = styled.View`
     margin: 8px 20px 0 20px;
     border-radius: 10px;
     padding: 15px;
-    flex-direction: row;
     background-color: #fff;
+`;
+
+export const ModificatorContainerView = styled.View`
+    flex-direction: row;
     justify-content: space-around;
 `;
 
@@ -21,4 +25,12 @@ export const ModificatorName= styled.Text`
 export const ModificatorNumber = styled.Text`
     font-size: 30px;
     font-weight: bold;
+`;
+
+export const ModificatorNumberDesc = styled.Text`
+    font-size: 13px;
+`;
+
+export const ModificatorDescription = styled.View`
+    align-items: center;
 `;
