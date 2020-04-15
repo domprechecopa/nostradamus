@@ -10,7 +10,7 @@ export const ViewerPlayer = styled.View`
 `;
 
 export const DescriptionPerson = styled.View`
-    margin-left: 20px;
+    padding-left: 20px;
 `;
 
 export const PersonImage = styled.Image`
@@ -20,9 +20,8 @@ export const PersonImage = styled.Image`
 `;
 
 
-export const PersonTitleNameText = styled.Text`
+export const PersonTitleText = styled.Text`
     font-size: 16px;
-    margin: 0 0 0 3px;
     color: #13131a;
     font-weight: bold;
 `;
@@ -30,19 +29,6 @@ export const PersonTitleNameText = styled.Text`
 
 export const PersonNameText = styled.Text`
     font-size: 16px;
-    margin: 0 10px 0 0;
     color: #13131a;
 `;
 
-export const PersonClassTitleText = styled.Text`
-    font-size: 16px;
-    margin: 3px 0 0 2px;
-    color: #13131a;
-    font-weight: bold;
-`;
-
-export const PersonClassText = styled.Text`
-    font-size: 16px;
-    margin: 0 10px 0 2px;
-    color: #13131a;
-`;
