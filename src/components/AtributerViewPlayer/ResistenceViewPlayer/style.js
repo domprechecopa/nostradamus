@@ -7,6 +7,8 @@ export const Container = styled.View`
     background-color: #fff;
     justify-content: flex-start;
     padding-top: 8px;
+    padding-bottom: 4px;
+
 `;
 
 export const AtributeView = styled.View`

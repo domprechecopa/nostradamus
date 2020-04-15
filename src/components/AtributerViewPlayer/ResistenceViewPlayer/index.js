@@ -11,110 +11,101 @@ export default function ResistenceViewPlayer(){
         <Container>
             <AtributeView>
                 <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
+                <TitleAtribute>Acrobacia</TitleAtribute>
+                <NumberAtribute>+5</NumberAtribute>
+            </AtributeView>
+
+            <AtributeView>
+                <TitleAtribute>Arcanismo</TitleAtribute>
                 <NumberAtribute>+5</NumberAtribute>
             </AtributeView>
 
             <AtributeView>
                 <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
+                <TitleAtribute>Atletismo</TitleAtribute>
+                <NumberAtribute>+5</NumberAtribute>
+            </AtributeView>
+
+            <AtributeView>
+                <TitleAtribute>Atuação</TitleAtribute>
                 <NumberAtribute>+5</NumberAtribute>
             </AtributeView>
 
             <AtributeView>
                 <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
+                <TitleAtribute>Enganação</TitleAtribute>
                 <NumberAtribute>+5</NumberAtribute>
             </AtributeView>
 
             <AtributeView>
                 <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
+                <TitleAtribute>Furtividade</TitleAtribute>
+                <NumberAtribute>+5</NumberAtribute>
+            </AtributeView>
+
+            <AtributeView>
+                <TitleAtribute>História</TitleAtribute>
+                <NumberAtribute>+5</NumberAtribute>
+            </AtributeView>
+
+            <AtributeView>
+                <TitleAtribute>Intimidação</TitleAtribute>
                 <NumberAtribute>+5</NumberAtribute>
             </AtributeView>
 
             <AtributeView>
                 <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
+                <TitleAtribute>Intuição</TitleAtribute>
+                <NumberAtribute>+5</NumberAtribute>
+            </AtributeView>
+
+            <AtributeView>
+                <TitleAtribute>Investigação</TitleAtribute>
                 <NumberAtribute>+5</NumberAtribute>
             </AtributeView>
 
             <AtributeView>
                 <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
+                <TitleAtribute>Lidar com Animais</TitleAtribute>
                 <NumberAtribute>+5</NumberAtribute>
             </AtributeView>
 
             <AtributeView>
                 <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
+                <TitleAtribute>Medicina</TitleAtribute>
                 <NumberAtribute>+5</NumberAtribute>
             </AtributeView>
 
             <AtributeView>
                 <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
-                <NumberAtribute>+5</NumberAtribute>
-            </AtributeView>
-
-            <AtributeView>
-                <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
-                <NumberAtribute>+5</NumberAtribute>
-            </AtributeView>
-
-            <AtributeView>
-                <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
-                <NumberAtribute>+5</NumberAtribute>
-            </AtributeView>
-
-            <AtributeView>
-                <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
-                <NumberAtribute>+5</NumberAtribute>
-            </AtributeView>
-
-            <AtributeView>
-                <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
-                <NumberAtribute>+5</NumberAtribute>
-            </AtributeView>
-
-            <AtributeView>
-                <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
+                <TitleAtribute>Natureza</TitleAtribute>
                 <NumberAtribute>+5</NumberAtribute>
             </AtributeView>
 
 
             <AtributeView>
-                <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
+                <TitleAtribute>Percepção</TitleAtribute>
+                <NumberAtribute>+5</NumberAtribute>
+            </AtributeView>
+
+            <AtributeView>
+                <TitleAtribute>Persuasão</TitleAtribute>
+                <NumberAtribute>+5</NumberAtribute>
+            </AtributeView>
+
+            <AtributeView>
+                <TitleAtribute>Prestidigitação</TitleAtribute>
+                <NumberAtribute>+5</NumberAtribute>
+            </AtributeView>
+
+            <AtributeView>
+                <TitleAtribute>Religião</TitleAtribute>
                 <NumberAtribute>+5</NumberAtribute>
             </AtributeView>
 
             <AtributeView>
                 <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
-                <NumberAtribute>+5</NumberAtribute>
-            </AtributeView>
-
-            <AtributeView>
-                <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
-                <NumberAtribute>+5</NumberAtribute>
-            </AtributeView>
-
-            <AtributeView>
-                <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
-                <NumberAtribute>+5</NumberAtribute>
-            </AtributeView>
-
-            <AtributeView>
-                <Feather name="award" color="#9e9e9e" size={16} style={{position : 'absolute'}} />
-                <TitleAtribute>Pedro</TitleAtribute>
+                <TitleAtribute>Sobrevivência</TitleAtribute>
                 <NumberAtribute>+5</NumberAtribute>
             </AtributeView>
         </Container>
