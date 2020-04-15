@@ -6,6 +6,7 @@ export const ViewerPlayer = styled.View`
     padding: 15px;
     flex-direction: row;
     background-color: #fff;
+    align-content: center;
 
 `;
 
@@ -14,9 +15,9 @@ export const DescriptionPerson = styled.View`
 `;
 
 export const PersonImage = styled.Image`
-    width: 100px;
-    height: 100px;
-    border-radius: 50px;
+    width: 110px;
+    height: 110px;
+    border-radius: 55px;
 `;
 
 
@@ -27,7 +28,12 @@ export const PersonTitleText = styled.Text`
 `;
 
 
-export const PersonNameText = styled.Text`
+export const PersonText = styled.Text`
+    font-size: 16px;
+    color: #13131a;
+`;
+
+export const PersonTextBold = styled.Text`
     font-size: 16px;
     color: #13131a;
 `;

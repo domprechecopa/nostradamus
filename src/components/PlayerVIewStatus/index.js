@@ -1,7 +1,7 @@
 import React from 'react';
 import {
-    ViewerPlayer, PersonNameText,
-    PersonImage, DescriptionPerson, PersonTitleNameText
+    ViewerPlayer, PersonText,
+    PersonImage, DescriptionPerson, PersonTitleText, PersonTextBold
 } from './style';
 import { View } from 'react-native';
 import userImg from '../../assets/user.png'
@@ -14,14 +14,40 @@ export default function PlayerViewStatus() {
             <PersonImage source={userImg} />
             <DescriptionPerson>
                 <View style={{flexDirection: 'row', alignContent: 'space-between'}}>
-                    <View style={{width: 180}}>
-                        <PersonTitleNameText>Personagem:</PersonTitleNameText>
-                        <PersonNameText >Pedro Pacheco</PersonNameText>
+                    <View style={{width: 150}}>
+                        <PersonTitleText>Personagem:</PersonTitleText>
+                        <PersonText >Pedro Pacheco</PersonText>
                     </View>
 
                     <View style={{marginLeft: 50}}>
-                        <PersonTitleNameText>Classe:</PersonTitleNameText>
-                        <PersonNameText>Bardo</PersonNameText>
+                        <PersonTitleText>Classe e Nível:</PersonTitleText>
+                        <PersonText>Bardo</PersonText>
+                    </View>
+                </View>
+
+
+                <View style={{flexDirection: 'row', alignContent: 'space-between'}}>
+                    <View style={{width: 150}}>
+                        <PersonTitleText>Raça:</PersonTitleText>
+                        <PersonText >Meio Elfo</PersonText>
+                    </View>
+
+                    <View style={{marginLeft: 50}}>
+                        <PersonTitleText>Antecedência:</PersonTitleText>
+                        <PersonText>Forasteiro</PersonText>
+                    </View>
+                </View>
+
+
+                <View style={{flexDirection: 'row', alignContent: 'space-between'}}>
+                    <View style={{width: 150}}>
+                        <PersonTitleText>Experiência:</PersonTitleText>
+                        <PersonTextBold >1900xp</PersonTextBold>
+                    </View>
+
+                    <View style={{marginLeft: 50}}>
+                        <PersonTitleText>Alinhamento:</PersonTitleText>
+                        <PersonText>LB</PersonText>
                     </View>
                 </View>
                 
