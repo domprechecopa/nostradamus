@@ -1,13 +1,11 @@
 import React from 'react';
-import { View, Text } from 'react-native';
-
+import PlayerViewStatus from '../../components/PlayerVIewStatus';
 
 export default function Player(){
     return (
-        <View>
-            <Text>
-                Page Player Funcionando!
-            </Text>
-        </View>
+        <Container>
+            <PlayerViewStatus />
+            
+        </Container>
     );
 }
