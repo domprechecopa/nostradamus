@@ -16,7 +16,7 @@ export default function ModificatorViewPlayer(){
 
             </ModificatorView>
             <ModificatorView>
-                <ModificatorName>FOR</ModificatorName>
+                <ModificatorName>DES</ModificatorName>
 
                 <ModificatorNumber>+5</ModificatorNumber>
                 <ModificatorNumberDesc>12</ModificatorNumberDesc>
@@ -24,7 +24,7 @@ export default function ModificatorViewPlayer(){
             </ModificatorView>
 
             <ModificatorView>
-                <ModificatorName>FOR</ModificatorName>
+                <ModificatorName>CON</ModificatorName>
 
                 <ModificatorNumber>+5</ModificatorNumber>
                 <ModificatorNumberDesc>12</ModificatorNumberDesc>
@@ -32,21 +32,21 @@ export default function ModificatorViewPlayer(){
 
             </ModificatorView>
             <ModificatorView>
-                <ModificatorName>FOR</ModificatorName>
+                <ModificatorName>INT</ModificatorName>
 
                 <ModificatorNumber>+5</ModificatorNumber>
                 <ModificatorNumberDesc>12</ModificatorNumberDesc>
 
             </ModificatorView>
             <ModificatorView>
-                <ModificatorName>FOR</ModificatorName>
+                <ModificatorName>SAB</ModificatorName>
 
                 <ModificatorNumber>+5</ModificatorNumber>
                 <ModificatorNumberDesc>12</ModificatorNumberDesc>
 
             </ModificatorView>
             <ModificatorView>
-                <ModificatorName>FOR</ModificatorName>
+                <ModificatorName>CAR</ModificatorName>
 
                 <ModificatorNumber>+5</ModificatorNumber>
                 <ModificatorNumberDesc>12</ModificatorNumberDesc>

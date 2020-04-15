@@ -18,6 +18,7 @@ export const PersonImage = styled.Image`
     width: 110px;
     height: 110px;
     border-radius: 55px;
+    position: absolute;
 `;
 
 
@@ -38,3 +39,18 @@ export const PersonTextBold = styled.Text`
     color: #13131a;
 `;
 
+
+export const LifeStatus = styled.Text`
+    width: 50px;
+    font-size: 18px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+`;
+
+export const PlayerImgView = styled.View`
+    height:110px;
+    width:110px;
+    align-items: center;
+    justify-content: flex-end;
+`;

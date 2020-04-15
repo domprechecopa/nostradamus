@@ -1,7 +1,9 @@
 import React from 'react';
 import {
     ViewerPlayer, PersonText,
-    PersonImage, DescriptionPerson, PersonTitleText, PersonTextBold
+    PersonImage, DescriptionPerson,
+     PersonTitleText, PersonTextBold,
+      PlayerImgView, LifeStatus
 } from './style';
 import { View } from 'react-native';
 import userImg from '../../assets/user.png'
@@ -11,7 +13,11 @@ export default function PlayerViewStatus() {
 
     return (
         <ViewerPlayer>
-            <PersonImage source={userImg} />
+            <PlayerImgView>
+              <PersonImage source={userImg} />
+                <LifeStatus>150</LifeStatus>
+
+            </PlayerImgView>
             <DescriptionPerson>
                 <View style={{flexDirection: 'row', alignContent: 'space-between'}}>
                     <View style={{width: 150}}>
@@ -21,7 +27,7 @@ export default function PlayerViewStatus() {
 
                     <View style={{marginLeft: 50}}>
                         <PersonTitleText>Classe e Nível:</PersonTitleText>
-                        <PersonText>Bardo</PersonText>
+                        <PersonText>Bardo - 10</PersonText>
                     </View>
                 </View>
 
