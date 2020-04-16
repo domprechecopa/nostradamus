@@ -6,6 +6,8 @@ import {
     ViewDeslocamento, NumberTrib, TextTrib,
     SalvaguardaView, SalvaguardaLineView, StatusView
 } from './style';
+import TestLife from './TestLife';
+
 
 export default function OtherAtributes(){
     return(
@@ -100,7 +102,7 @@ export default function OtherAtributes(){
                 </SalvaguardaLineView>
             </SalvaguardaView>
 
-            
+            <TestLife />
         </Container>
     );
 }
