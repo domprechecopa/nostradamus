@@ -15,12 +15,29 @@ export default function TestLife(){
                 <TextLineView>
                     Vida:
                 </TextLineView>
-                <Feather name='circle' size={15} color='#9e9e9e' style={{marginTop: 2}}/>
-                <Feather name='circle' size={15} color='#9e9e9e' style={{marginTop: 2}}/>
-                <Feather name='circle' size={15} color='#9e9e9e' style={{marginTop: 2}}/>
+                <Feather name='circle' size={15} color='#9e9e9e' style={BorderCircleRigth}/>
+                <Feather name='circle' size={15} color='#9e9e9e' style={BorderCircleRigth}/>
+                <Feather name='circle' size={15} color='#9e9e9e' style={{marginTop: 3}}/>
 
             </LineLifeView>
+            <LineLifeView>
+                <TextLineView>
+                    Morte:
+                </TextLineView>
+                <Feather name='circle' size={15} color='#9e9e9e' style={BorderCircleRigth}/>
+                <Feather name='circle' size={15} color='#9e9e9e' style={BorderCircleRigth}/>
+                <Feather name='circle' size={15} color='#9e9e9e' style={{marginTop: 3}}/>
 
+            </LineLifeView>
         </Container>
     );
 }
+
+
+const BorderCircleRigth = {
+    marginTop: 3,
+    borderRightColor: '#9e9e9e',
+    borderRightWidth: 1,
+    paddingRight: 30,
+    marginBottom: 6,
+};
