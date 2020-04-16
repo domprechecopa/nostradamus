@@ -21,7 +21,7 @@ export const AtributeView = styled.View`
 
 
 export const TitleAtribute = styled.Text`
-    font-size: 13px;
+    font-size: 15px;
 `;
 
 
