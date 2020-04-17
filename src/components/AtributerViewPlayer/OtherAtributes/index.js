@@ -9,6 +9,7 @@ import {
 } from './style';
 import TestLife from './TestLife';
 import LifeStatus from './LifeStatus';
+import ArmasView from './ArmasView';
 
 
 export default function OtherAtributes(){
@@ -108,6 +109,7 @@ export default function OtherAtributes(){
             </SalvaguardaView>
 
             <TestLife />
+            <ArmasView />
         </Container>
     );
 }
