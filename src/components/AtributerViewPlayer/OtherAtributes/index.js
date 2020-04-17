@@ -4,7 +4,8 @@ import { View } from 'react-native';
 import {
     Container, TributesClassProfView, TextClassArmor,
     ViewDeslocamento, NumberTrib, TextTrib,
-    SalvaguardaView, SalvaguardaLineView, StatusView
+    SalvaguardaView, SalvaguardaLineView, StatusView,
+    TitleContainer
 } from './style';
 import TestLife from './TestLife';
 
@@ -36,6 +37,7 @@ export default function OtherAtributes(){
             </TributesClassProfView>
 
             <SalvaguardaView>
+                <TitleContainer>Salvaguarda:</TitleContainer>
                 <SalvaguardaLineView>
                     <StatusView >
                         <TextTrib>

@@ -13,7 +13,7 @@ export default function TestLife(){
             </TitleContainer>
             <LineLifeView>
                 <TextLineView>
-                    Vida:
+                    Sucessos:
                 </TextLineView>
                 <Feather name='circle' size={15} color='#9e9e9e' style={BorderCircleRigth}/>
                 <Feather name='circle' size={15} color='#9e9e9e' style={BorderCircleRigth}/>
@@ -22,7 +22,7 @@ export default function TestLife(){
             </LineLifeView>
             <LineLifeView>
                 <TextLineView>
-                    Morte:
+                    Falhas:
                 </TextLineView>
                 <Feather name='circle' size={15} color='#9e9e9e' style={BorderCircleRigth}/>
                 <Feather name='circle' size={15} color='#9e9e9e' style={BorderCircleRigth}/>

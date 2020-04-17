@@ -54,7 +54,7 @@ export const NumberTrib = styled.Text`
 export const SalvaguardaView = styled.View`
     border-style: solid;
     border-bottom-width: 1px;
-    margin-top: 10px;
+    margin-top: 5px;
     padding-bottom: 10px;
     border-color: #9e9e9e;
     justify-content: center;
@@ -68,5 +68,11 @@ export const SalvaguardaLineView = styled.View`
 `;
 
 export const StatusView = styled.View`
-    width: 120px;
+    width: 95px;
+`;
+
+export const TitleContainer = styled.Text`
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
 `;

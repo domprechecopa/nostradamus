@@ -24,5 +24,5 @@ export const TextLineView = styled.Text`
     text-align: left;
     font-size: 18px;
     font-style: italic;
-    width: 45px;
+    width: 70px;
 `;
