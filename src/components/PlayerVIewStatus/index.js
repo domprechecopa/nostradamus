@@ -15,7 +15,7 @@ export default function PlayerViewStatus() {
         <ViewerPlayer>
             <PlayerImgView>
               <PersonImage source={userImg} />
-                <LifeStatus>150</LifeStatus>
+                <LifeStatus>Lv. 16</LifeStatus>
 
             </PlayerImgView>
             <DescriptionPerson>
@@ -26,8 +26,8 @@ export default function PlayerViewStatus() {
                     </View>
 
                     <View style={{marginLeft: 50}}>
-                        <PersonTitleText>Classe e Nível:</PersonTitleText>
-                        <PersonText>Bardo - 10</PersonText>
+                        <PersonTitleText>Classe:</PersonTitleText>
+                        <PersonText>Bardo</PersonText>
                     </View>
                 </View>
 
