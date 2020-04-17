@@ -8,11 +8,14 @@ import {
     TitleContainer
 } from './style';
 import TestLife from './TestLife';
+import LifeStatus from './LifeStatus';
 
 
 export default function OtherAtributes(){
     return(
         <Container>
+            <LifeStatus />
+
             <TributesClassProfView>
                 <Feather name="shield" size={18} color='#9e9e9e' style={{marginTop: 14}} />
                 <TextClassArmor>22</TextClassArmor>
